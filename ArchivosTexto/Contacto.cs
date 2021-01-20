@@ -29,5 +29,28 @@ namespace ArchivosTexto
             ID++;
         }
 
+        public void MostarTelefono(string nombre)
+        {
+            if (this.Nombre.Equals(nombre))
+            {
+                Console.WriteLine("Numero de telefono de {0}: {1}",this.Nombre,this.Telefono);
+            }
+
+        }
+
+        public void MostrarDatos(int ID)
+        {
+            if (this.ID_Ind == ID)
+            {
+                Console.WriteLine("ID {0}- Nombre: {0}, Telefono: {1}", this.Nombre, this.Nombre);
+            }
+        }
+
+        /*public string MostarPorInicial(string inicial)
+        {
+            if
+        }
+        */
+
     }
 }
