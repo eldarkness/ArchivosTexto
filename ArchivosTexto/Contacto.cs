@@ -46,11 +46,11 @@ namespace ArchivosTexto
             }
         }
 
-        /*public string MostarPorInicial(string inicial)
+        public char MostarPorInicial()
         {
-            if
+            return this.Nombre[0];    
         }
-        */
+        
 
     }
 }
